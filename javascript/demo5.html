@@ -1,0 +1,70 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function ss() {
+        // a = parseInt(document.f1.t1.s1.value);
+        aa = parseInt(document.getElementById("a1").value);
+        alert(aa);
+
+        b = parseInt(document.f1.t1.s2.value);
+        c = parseInt(document.f1.t1.s3.value);
+        d = parseInt(document.f1.t1.s4.value);
+        e = parseInt(document.f1.t1.s5.value);
+        f = parseInt(document.f1.t1.s6.value);
+
+        sum = a + b + c + d + ef;
+        document.f1.t1.total = sum;
+
+        perr = sum / 6;
+        document.f1.t1.perr = per;
+      }
+    </script>
+  </head>
+  <body>
+    <div style="text-align: center">
+      <h1>Hi Event or Action Demo</h1>
+      <form name="f1" style="align-items: center">
+        <table name="t1" style="text-align: center; display: inline">
+          <tr>
+            <td>Science</td>
+            <td><input type="text" name="s1" id="a1" /></td>
+          </tr>
+          <tr>
+            <td>Maths</td>
+            <td><input type="text" name="s2" /></td>
+          </tr>
+          <tr>
+            <td>EVS</td>
+            <td><input type="text" name="s3" /></td>
+          </tr>
+          <tr>
+            <td>English</td>
+            <td><input type="text" name="s4" /></td>
+          </tr>
+          <tr>
+            <td>History</td>
+            <td><input type="text" name="s5" /></td>
+          </tr>
+          <tr>
+            <td>Hindi</td>
+            <td><input type="text" name="s6" /></td>
+          </tr>
+          <tr>
+            <td>
+              Total:- <input type="text" name="total" style="width: 60px" />
+            </td>
+            <td>
+              Percentage:- <input type="text" name="per" style="width: 60px" />
+            </td>
+          </tr>
+        </table>
+        <br />
+        <button onclick="ss()">Submit</button>
+        <button onclick="vv()">Reset</button>
+      </form>
+    </div>
+  </body>
+</html>

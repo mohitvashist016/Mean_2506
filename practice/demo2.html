@@ -1,0 +1,72 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        background-color: purple;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 30px;
+      }
+      ul {
+        display: flex;
+        list-style: none;
+      }
+      li {
+        margin: 0 20px;
+      }
+      li a {
+        cursor: pointer;
+      }
+      li a:hover {
+        color: yellow;
+      }
+      img {
+      }
+      .mycs {
+        display: flex;
+        margin: 100px 0;
+        justify-content: space-around;
+      }
+      .leftsection {
+        background-color: yellow;
+      }
+      .rightsection {
+        background-color: blanchedalmond;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="left">Freshkart</div>
+      <div class="center">
+        <input type="search" placeholder="Search Here" />
+        <button>Location</button>
+      </div>
+      <div class="right">
+        <ul>
+          <li><a>Home</a></li>
+          <li><a>Services</a></li>
+          <li><a>About</a></li>
+          <li><a>Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="mycs">
+      <div class="leftsection">
+        <h1>Welcome to Fresh Cart</h1>
+      </div>
+      <div class="rightsection">
+        <img src="fruits.jpg" />
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function abc() {
+        firstName = document.f1.n1.value;
+        lastName = document.f1.p1.value;
+        fullName = firstName + lastName;
+        // alert("First name is " + firstName);
+        // alert("Full name is " + fullName);
+        document.f1.full.value = fullName;
+        //parseInt() to convert string into integer
+      }
+    </script>
+  </head>
+  <body>
+    <div style="text-align: center">
+      <h1>HI please fill the details</h1>
+      <form name="f1">
+        Username : <input type="text" name="n1" /><br />
+        Passowrd : <input type="text" name="p1" /><br /><br />
+        <!-- <h1 name="full"></h1> -->
+        Fullname : <input type="text" name="full" /><br />
+
+        <input type="button" value="Login" onclick="abc()" />
+      </form>
+    </div>
+  </body>
+</html>

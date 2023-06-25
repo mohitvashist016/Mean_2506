@@ -1,0 +1,279 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        background-color: rgb(18, 18, 62);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        font-size: 1.02rem;
+        color: rgb(153, 153, 226);
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 100px 0;
+      }
+      .firstsection > div {
+        width: 30%;
+      }
+      .leftsection {
+        font-size: 2rem;
+      }
+      .leftsection .btn {
+        background-color: rgb(68, 76, 155);
+        color: white;
+        margin: 30px 0px;
+        padding: 12px;
+        font-size: 16px;
+        border-radius: 8px;
+        border: 2px solid;
+        cursor: pointer;
+      }
+      .rightsection img {
+        width: 110%;
+      }
+      .purple {
+        color: rgb(170, 107, 228);
+      }
+      #element {
+        color: rgb(170, 107, 228);
+      }
+      .secondsection {
+        max-width: 80vw;
+        margin: auto;
+      }
+      main hr {
+        border: 0;
+        height: 1.2px;
+        margin: 60px 84px;
+        background-color: #9c97f1;
+      }
+      .secondsection h1 {
+        font-size: 1.9rem;
+      }
+      .text-gray {
+        color: gray;
+      }
+      .secondsection .box {
+        background-color: white;
+        height: 2px;
+        width: 80vw;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondsection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+      .image-top {
+        width: 28px;
+        position: relative;
+        top: -32px;
+        left: -13px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 70px;
+        width: 165px;
+        font-size: 1rem;
+      }
+      .vertical-desc {
+        color: gray;
+        position: relative;
+        top: 80px;
+        width: 150px;
+        font-size: 9px;
+      }
+      footer {
+        background-color: #0e0e1a;
+        position: relative;
+        top: 220px;
+      }
+      .footer {
+        display: flex;
+        padding: 23px 123px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      footer .footer-bottom {
+        color: gray;
+        text-align: center;
+        padding: 12px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Mohit's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is <span class="purple">Mohit</span>
+          <div>and I am a passionate</div>
+          <!-- <div>Web Developer</div> -->
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit GitHub</button>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="bg3.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="html.png" alt="" />
+            <div class="vertical-title">HTML Developer(2010-12)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod
+              tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrum exercitationem
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="yt.png" alt="" />
+            <div class="vertical-title">Youtube Developer(2012-2014)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod
+              tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrum exercitationem
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="fb.png" alt="" />
+            <div class="vertical-title">Facebook Developer(2014-2016)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod
+              tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrum exercitationem
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="i.png" alt="" />
+            <div class="vertical-title">Insta Developer(2016-18)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod
+              tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrum exercitationem
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="w.png" alt="" />
+            <div class="vertical-title">Whatsapp Developer(2018-20)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod
+              tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrum exercitationem
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="first">
+          <h3>Mohit's Portfolio</h3>
+        </div>
+        <div class="second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="third">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="fourth">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        www.mohitsportfolio.com | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Graphic Designer",
+          "Web Designer",
+          "Video Editor",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>

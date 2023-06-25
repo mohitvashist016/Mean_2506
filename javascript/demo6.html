@@ -1,0 +1,42 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function abc() {
+        fn = document.getElementById("f1").value;
+        ln = document.getElementById("f2").value;
+        ss = fn + ln;
+        document.getElementById("f3").value = ss;
+      }
+      function xyz() {
+        // docusment.getElementById("bb").style.backgroundColor = "pink";
+        document.getElementById("f2").style.backgroundColor = "grey";
+      }
+      function ccc(value) {
+        document.getElementById("bb").style.backgroundColor = value;
+      }
+    </script>
+  </head>
+  <body id="bb">
+    <div style="text-align: center">
+      <marquee onmouseover="stop()" onmouseout="start()"
+        ><h1>Hi Event or Action Demo</h1></marquee
+      >
+      <form>
+        FirstName:- <input type="text" id="f1" /> LastName:-
+        <input type="text" id="f2" onfocus="xyz()" /> FullName:-
+        <input type="text" id="f3" />
+        <button type="button" onclick="abc()">Get FUll Name</button>
+      </form>
+      <select onchange="ccc(value)">
+        <option>Choose</option>
+        <option value="red">Red</option>
+        <option value="purple">Purple</option>
+        <option value="pink">Pink</option>
+        <option>Green</option>
+      </select>
+    </div>
+  </body>
+</html>

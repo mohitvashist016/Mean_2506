@@ -1,0 +1,25 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function logical() {
+        n1 = document.getElementById("tt").value;
+        if (n1 % 2 == 0) {
+          document.getElementById("ss").innerHTML = "Number is EVEN";
+          //   document.getElementsByTagName("h1").value = "Number is EVEN";
+        } else {
+          document.getElementById("ss").innerHTML = "Number is ODD";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div style="text-align: center">
+      Enter Number:- <input type="text" id="tt" />
+      <input type="button" value="Click" onclick="logical()" />
+      <h1 id="ss"></h1>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="e"></p>
+    <script>
+      function employee(fn, ln, age, salary) {
+        this.fn = fn;
+        this.ln = ln;
+        this.age = age;
+        this.salary = salary;
+      }
+      myemp = new employee("Mohit", "vashist", 27, 5000000);
+      employee.prototype.desig = "Developer";
+      document.getElementById("e").innerHTML =
+        "My name is " +
+        myemp.fn +
+        " age is " +
+        myemp.age +
+        " designation is " +
+        myemp.desig;
+      //   window.onload = function () {
+      // employee(fn, ln, age, salary);
+      //   };
+    </script>
+  </body>
+</html>
